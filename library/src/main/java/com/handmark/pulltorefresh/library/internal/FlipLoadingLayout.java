@@ -31,7 +31,7 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase.Orientation;
 import com.handmark.pulltorefresh.library.R;
 
 @SuppressLint("ViewConstructor")
-public class FlipLoadingLayout extends LoadingLayout {
+public class FlipLoadingLayout extends LoadingLayoutImpl {
 
 	static final int FLIP_ANIMATION_DURATION = 150;
 

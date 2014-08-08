@@ -27,7 +27,7 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.Orientation;
 import com.handmark.pulltorefresh.library.R;
 
-public class RotateLoadingLayout extends LoadingLayout {
+public class RotateLoadingLayout extends LoadingLayoutImpl {
 
 	static final int ROTATION_ANIMATION_DURATION = 1200;
 
