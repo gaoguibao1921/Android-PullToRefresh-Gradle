@@ -10,6 +10,11 @@ android {
         versionCode 2110
         versionName "2.1.1"
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 dependencies {
